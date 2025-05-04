@@ -1,0 +1,26 @@
+#list-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#list-section .category {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#list-section .category .category-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#list-section .category .item-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

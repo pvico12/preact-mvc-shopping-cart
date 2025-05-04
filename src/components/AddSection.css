@@ -1,0 +1,27 @@
+#add-section {
+    display: flex;
+    gap: 0;
+    width: 100%;
+    height: 25px;
+}
+  
+.add-input {
+    flex: 1;
+    padding: 8px;
+    font-size: 12px;
+}
+
+.add-stepper {
+    padding: 4px;
+    font-size: 12px;
+}
+
+.add-selector {
+    padding: 4px;
+    font-size: 12px;
+}
+
+.add-button {
+    padding: 4px;
+    font-size: 12px;
+}

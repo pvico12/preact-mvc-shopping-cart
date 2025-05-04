@@ -1,0 +1,53 @@
+.expense-line-item {
+    display: flex;
+    margin: 15px;
+}
+
+.expense-name {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.expense-quantity {
+    width: 50px;
+}
+
+.expense-price {
+    width: 70px;
+}
+
+.expense-cost {
+    width: 100px;
+    text-align: right;
+}
+
+.expense-line-item-total {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.expense-total-label {
+    font-weight: bold;
+    width: 100px;
+}
+
+.expense-total-price {
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.loading-dots {
+    margin-top: 8px;
+    margin-left: 8px;
+    display: flex;
+    width: 10px;
+    aspect-ratio: 4;
+    background: radial-gradient(circle closest-side,#000 90%,#0000) 0/calc(100%/3) 100% space;
+    clip-path: inset(0 100% 0 0);
+    animation: l1 1s steps(4) infinite;
+}
+@keyframes l1 {to{clip-path: inset(0 -34% 0 0)}}

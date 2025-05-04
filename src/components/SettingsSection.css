@@ -1,0 +1,13 @@
+#settings-section {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+
+.settings-button {
+    flex: 1;
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+}
